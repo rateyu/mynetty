@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ming/netty/SingleReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/b/ming/netty/SingleReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/soft/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -91,12 +93,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638782155578</updated>
-      <workItem from="1638782158629" duration="9871000" />
+      <workItem from="1638782158629" duration="10018000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1638920915626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638920915627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="94" key="#Project_Structure" timestamp="1638801073757">
@@ -107,6 +121,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1638801469354" />
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638920912769">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638920912769" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638839647418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -160,17 +178,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardServer.java</url>
           <line>59</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardServer.java</url>
           <line>55</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardServer.java</url>
           <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
