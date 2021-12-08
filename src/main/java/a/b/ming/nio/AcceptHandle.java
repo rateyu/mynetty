@@ -1,4 +1,4 @@
-package a.b.ming.netty;
+package a.b.ming.nio;
 
 public class AcceptHandle implements Runnable{
     @Override

@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/AcceptHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ming/nio/MyDiscardClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ming/nio/MyDiscardServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/AcceptHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +73,11 @@
   </component>
   <component name="RunManager" selected="Application.EchoClient">
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.c.ming.netty.EchoClient" />
+      <option name="MAIN_CLASS_NAME" value="a.c.ming.nio.EchoClient" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.c.ming.netty.*" />
+          <option name="PATTERN" value="a.c.ming.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="EchoServerReactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.c.ming.netty.EchoServerReactor" />
+      <option name="MAIN_CLASS_NAME" value="a.c.ming.nio.EchoServerReactor" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.c.ming.netty.*" />
+          <option name="PATTERN" value="a.c.ming.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="SingleReactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.b.ming.netty.SingleReactor" />
+      <option name="MAIN_CLASS_NAME" value="a.b.ming.nio.SingleReactor" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.b.ming.netty.*" />
+          <option name="PATTERN" value="a.b.ming.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638782155578</updated>
-      <workItem from="1638782158629" duration="26492000" />
+      <workItem from="1638782158629" duration="26727000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -181,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638921678656</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="echoserver 提交">
+      <created>1638974404082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638974404082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +191,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="单线程reactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="单线程reactor" />
+    <MESSAGE value="echoserver 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="echoserver 提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="94" key="#Project_Structure" timestamp="1638801073757">
@@ -206,30 +207,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1638965394930" />
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638974316268">
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638974401270">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638974316268" />
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638974401270" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638930705832">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="134" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638930705832" />
-    <state width="1492" height="216" key="GridCell.Tab.0.bottom" timestamp="1638974322419">
+    <state width="1492" height="216" key="GridCell.Tab.0.bottom" timestamp="1638974493049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638974322419" />
-    <state width="1492" height="216" key="GridCell.Tab.0.center" timestamp="1638974322419">
+    <state width="1492" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638974493049" />
+    <state width="1492" height="216" key="GridCell.Tab.0.center" timestamp="1638974493048">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638974322419" />
-    <state width="1492" height="216" key="GridCell.Tab.0.left" timestamp="1638974322418">
+    <state width="1492" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
+    <state width="1492" height="216" key="GridCell.Tab.0.left" timestamp="1638974493048">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638974322418" />
-    <state width="1492" height="216" key="GridCell.Tab.0.right" timestamp="1638974322419">
+    <state width="1492" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
+    <state width="1492" height="216" key="GridCell.Tab.0.right" timestamp="1638974493048">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638974322419" />
+    <state width="1492" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
     <state width="1492" height="290" key="GridCell.Tab.1.bottom" timestamp="1638969744967">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -282,52 +283,52 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/netty/AcceptHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java</url>
           <line>47</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java</url>
           <line>52</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
           <line>39</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
           <line>22</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
           <line>39</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
           <line>57</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
           <line>66</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
           <line>41</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
           <line>52</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
