@@ -1,2 +1,52 @@
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+
+# temp ignore
+*.class
 *.log
-/target
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
+
+# idea ignore
+.idea/
+*.ipr
+*.iws
+.mymetadata
+.checkstyle
+.classpath
+.project
+.class
+.war
+.zip
+.rar
+*.iml
+.settings/*
+/indexes/*
+/target/*
+/src/main/webapp/WEB-INF/classes/*
+/src/main/webapp/userfiles/*
+/target/
+/catalina.base_IS_UNDEFINED/
+/LOG_HOME_IS_UNDEFINED/
+/.idea/
+# *.properties
+
