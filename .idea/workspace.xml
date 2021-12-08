@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/b/ming/netty/SingleReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ming/nio/MyDiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/a/ming/nio/MyDiscardClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/1/b/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/1/b/ming/netty/SingleReactor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="21uDcFNg3t2uQhfIzWQPaA4DLI1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -43,6 +44,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -93,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638782155578</updated>
-      <workItem from="1638782158629" duration="10018000" />
+      <workItem from="1638782158629" duration="10537000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -102,15 +104,24 @@
       <option name="project" value="LOCAL" />
       <updated>1638920915627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="单线程reactor">
+      <created>1638921020788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638921020788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="单线程reactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="单线程reactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="94" key="#Project_Structure" timestamp="1638801073757">
@@ -121,10 +132,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1638801469354" />
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638920912769">
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638921019567">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638920912769" />
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638921019567" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638839647418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -173,6 +184,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="490" y="173" width="546" height="524" key="StructurePopup/0.0.1536.864@0.0.1536.864" timestamp="1638800369917" />
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1638921341956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1638921341956" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
