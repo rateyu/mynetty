@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/AcceptHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/netty/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/netty/EchoServerReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638782155578</updated>
-      <workItem from="1638782158629" duration="26727000" />
+      <workItem from="1638782158629" duration="27313000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638974404082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="echoserver 提交">
+      <created>1638974725440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638974725440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1638965394930" />
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638974401270">
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638974724802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638974401270" />
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638974724802" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638930705832">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
