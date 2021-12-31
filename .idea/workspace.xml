@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/a/a/suanfa/suanfa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/f/d/ming/nio/multiecho/MultiEchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/a/ming/netty/discard/DiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/AcceptHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/SingleReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +67,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -67,13 +79,39 @@
       <recent name="D:\gitee\mynety\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RunManager" selected="Application.DiscardServer">
+    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g.a.ming.netty.discard.DiscardServer" />
+      <module name="mynety" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g.a.ming.netty.discard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a.c.ming.nio.EchoClient" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.c.ming.nio.*" />
+          <option name="PATTERN" value="f.c.ming.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f.c.ming.nio.echo.EchoClient" />
+      <module name="mynety" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="f.c.ming.nio.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,20 +124,7 @@
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.c.ming.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyDiscardClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.a.ming.nio.MyDiscardClient" />
-      <module name="mynety" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a.a.ming.nio.*" />
+          <option name="PATTERN" value="f.c.ming.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,18 +133,11 @@
       </method>
     </configuration>
     <configuration name="MyDiscardClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ming.nio.MyDiscardClient" />
-      <module name="mynety" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleReactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.b.ming.nio.SingleReactor" />
+      <option name="MAIN_CLASS_NAME" value="f.a.ming.nio.discard.MyDiscardClient" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.b.ming.nio.*" />
+          <option name="PATTERN" value="f.a.ming.nio.discard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiscardServer" />
+        <item itemvalue="Application.MyDiscardClient" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServerReactor" />
-        <item itemvalue="Application.MyDiscardClient (1)" />
-        <item itemvalue="Application.SingleReactor" />
-        <item itemvalue="Application.MyDiscardClient" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638782155578</updated>
-      <workItem from="1638782158629" duration="27313000" />
+      <workItem from="1638782158629" duration="29957000" />
+      <workItem from="1639061428773" duration="1026000" />
+      <workItem from="1639100842609" duration="5802000" />
+      <workItem from="1639358553875" duration="1348000" />
+      <workItem from="1640302339779" duration="3416000" />
+      <workItem from="1640654624584" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -184,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638974725440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="echoserver 提交">
+      <created>1638975182140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638975182140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,62 +231,62 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="94" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1638801073757" />
-    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1638972069359">
+    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1639008307270">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1638972069359" />
-    <state x="524" y="140" key="#xdebugger.evaluate" timestamp="1638965394930">
+    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1639008307270" />
+    <state x="524" y="140" key="#xdebugger.evaluate" timestamp="1639008792561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1638965394930" />
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1638974724802">
+    <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1639008792561" />
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1640918960973">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1638974724802" />
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1640918960973" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638930705832">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="134" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638930705832" />
-    <state width="1492" height="216" key="GridCell.Tab.0.bottom" timestamp="1638974493049">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1639310245335">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638974493049" />
-    <state width="1492" height="216" key="GridCell.Tab.0.center" timestamp="1638974493048">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639310245335" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1639310245334">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
-    <state width="1492" height="216" key="GridCell.Tab.0.left" timestamp="1638974493048">
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1639310245334" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1639310245334">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
-    <state width="1492" height="216" key="GridCell.Tab.0.right" timestamp="1638974493048">
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1639310245334" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1639310245335">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638974493048" />
-    <state width="1492" height="290" key="GridCell.Tab.1.bottom" timestamp="1638969744967">
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1639310245335" />
+    <state width="1492" height="290" key="GridCell.Tab.1.bottom" timestamp="1639008869037">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638969744967" />
-    <state width="1492" height="290" key="GridCell.Tab.1.center" timestamp="1638969744966">
+    <state width="1492" height="290" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639008869037" />
+    <state width="1492" height="290" key="GridCell.Tab.1.center" timestamp="1639008869035">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1638969744966" />
-    <state width="1492" height="290" key="GridCell.Tab.1.left" timestamp="1638969744965">
+    <state width="1492" height="290" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1639008869035" />
+    <state width="1492" height="290" key="GridCell.Tab.1.left" timestamp="1639008869035">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1638969744965" />
-    <state width="1492" height="290" key="GridCell.Tab.1.right" timestamp="1638969744967">
+    <state width="1492" height="290" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1639008869035" />
+    <state width="1492" height="290" key="GridCell.Tab.1.right" timestamp="1639008869036">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1638969744967" />
+    <state width="1492" height="290" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1639008869036" />
     <state x="408" y="136" key="NewModule_or_Project.wizard" timestamp="1638930707430">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="408" y="136" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1638930707430" />
-    <state x="249" y="10" key="SettingsEditor" timestamp="1638919708494">
+    <state x="249" y="10" key="SettingsEditor" timestamp="1639012175779">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1638919708494" />
+    <state x="249" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1639012175779" />
     <state x="490" y="173" width="546" height="524" key="StructurePopup" timestamp="1638800369917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -271,69 +300,79 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardServer.java</url>
           <line>59</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardServer.java</url>
           <line>55</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardServer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardServer.java</url>
           <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/AcceptHandle.java</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/SingleReactor.java</url>
           <line>47</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/SingleReactor.java</url>
           <line>52</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoHandle.java</url>
           <line>39</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoHandle.java</url>
           <line>22</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java</url>
           <line>39</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java</url>
           <line>57</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java</url>
           <line>66</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java</url>
           <line>41</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoHandle.java</url>
           <line>52</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/a/ming/netty/discard/DiscardServer.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/a/ming/netty/discard/DiscardServer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
