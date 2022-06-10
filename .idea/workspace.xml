@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a/a/suanfa/suanfa.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/f/d/ming/nio/multiecho/MultiEchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/a/ming/netty/discard/DiscardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/t/t/tts/BiaoBeiTts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/a/ming/nio/MyDiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/a/ming/nio/discard/MyDiscardServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/AcceptHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/AcceptHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/b/ming/nio/SingleReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/b/ming/nio/reactor/SingleReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a/c/ming/nio/EchoServerReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/f/c/ming/nio/echo/EchoServerReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mynety.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\soft\apache-maven-3.8.5\reps" />
+        <option name="mavenHome" value="D:/soft/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -64,10 +65,10 @@
     <property name="android.sdk.path" value="D:/soft/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/github/netty-netty-4.1.70.Final" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -170,6 +171,27 @@
       <workItem from="1639358553875" duration="1348000" />
       <workItem from="1640302339779" duration="3416000" />
       <workItem from="1640654624584" duration="592000" />
+      <workItem from="1640918782673" duration="2501000" />
+      <workItem from="1641362470951" duration="2206000" />
+      <workItem from="1641513238259" duration="2662000" />
+      <workItem from="1641538022579" duration="1779000" />
+      <workItem from="1641776956554" duration="2079000" />
+      <workItem from="1641807828781" duration="697000" />
+      <workItem from="1641988203883" duration="1894000" />
+      <workItem from="1642050533231" duration="267000" />
+      <workItem from="1645081517594" duration="1294000" />
+      <workItem from="1645443445993" duration="577000" />
+      <workItem from="1647315036268" duration="1608000" />
+      <workItem from="1647324819372" duration="3504000" />
+      <workItem from="1647855236025" duration="1984000" />
+      <workItem from="1648020322777" duration="1385000" />
+      <workItem from="1648709786242" duration="2267000" />
+      <workItem from="1648773461477" duration="1738000" />
+      <workItem from="1648775425074" duration="677000" />
+      <workItem from="1648776132732" duration="1466000" />
+      <workItem from="1648781943953" duration="1167000" />
+      <workItem from="1648783147130" duration="3010000" />
+      <workItem from="1649215832463" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -213,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638975182140</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="echoserver 提交">
+      <created>1640919008892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640919008892</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,74 +256,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="echoserver 提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="94" key="#Project_Structure" timestamp="1638801073757">
+    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1640919006634">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="94" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1638801073757" />
-    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1639008307270">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1640919006634" />
+    <state x="1060" y="406" key="FileChooserDialogImpl" timestamp="1648776072781">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="675" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1639008307270" />
-    <state x="524" y="140" key="#xdebugger.evaluate" timestamp="1639008792561">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="1060" y="406" key="FileChooserDialogImpl/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648776072781" />
+    <state x="810" y="363" key="Maven.ArtifactSearchDialog" timestamp="1649294402569">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="524" y="140" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1639008792561" />
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1640918960973">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="810" y="363" key="Maven.ArtifactSearchDialog/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1649294402569" />
+    <state x="920" y="408" key="NewModule_or_Project.wizard" timestamp="1647855301501">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1640918960973" />
-    <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1638930705832">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="920" y="408" key="NewModule_or_Project.wizard/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1647855301501" />
+    <state x="269" y="203" key="SettingsEditor" timestamp="1648783416887">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="549" y="134" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638930705832" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1639310245335">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1641990697295" />
+    <state x="269" y="203" key="SettingsEditor/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648783416887" />
+    <state x="654" y="409" key="new project wizard" timestamp="1648096516651">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639310245335" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1639310245334">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1639310245334" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1639310245334">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1639310245334" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1639310245335">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1639310245335" />
-    <state width="1492" height="290" key="GridCell.Tab.1.bottom" timestamp="1639008869037">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639008869037" />
-    <state width="1492" height="290" key="GridCell.Tab.1.center" timestamp="1639008869035">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1639008869035" />
-    <state width="1492" height="290" key="GridCell.Tab.1.left" timestamp="1639008869035">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1639008869035" />
-    <state width="1492" height="290" key="GridCell.Tab.1.right" timestamp="1639008869036">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="290" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1639008869036" />
-    <state x="408" y="136" key="NewModule_or_Project.wizard" timestamp="1638930707430">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="408" y="136" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1638930707430" />
-    <state x="249" y="10" key="SettingsEditor" timestamp="1639012175779">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="249" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1639012175779" />
-    <state x="490" y="173" width="546" height="524" key="StructurePopup" timestamp="1638800369917">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="490" y="173" width="546" height="524" key="StructurePopup/0.0.1536.864@0.0.1536.864" timestamp="1638800369917" />
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1638921341956">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1638921341956" />
+    <state x="654" y="409" key="new project wizard/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648096516651" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
