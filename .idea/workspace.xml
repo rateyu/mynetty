@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/t/t/tts/BiaoBeiTts.java" afterDir="false" />
+    <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="echoserver 提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/Msg.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/MsgProtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/ProtoInstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/ProtoMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/improtoCli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/improtoSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mynety.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../temp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,18 +39,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="D:\soft\apache-maven-3.8.5\reps" />
-        <option name="mavenHome" value="D:/soft/apache-maven-3.8.5" />
-        <option name="userSettingsFile" value="D:\soft\apache-maven-3.8.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -52,7 +70,6 @@
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -62,31 +79,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="D:/soft/android-sdk_r24.4.1-windows/android-sdk-windows" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../soft/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/github/netty-netty-4.1.70.Final" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/b/b" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../temp" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="g.b.m.netty.myim" />
       <recent name="a.c.ming.netty" />
       <recent name="a.b.ming.netty.a.c.ming.netty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitee\mynety\src\main\java\g\c\m\netty" />
       <recent name="D:\gitee\mynety\src\main\resources" />
       <recent name="D:\gitee\mynety\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiscardServer">
-    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="g.a.ming.netty.discard.DiscardServer" />
+  <component name="RunManager" selected="Application.improtoCli">
+    <configuration name="ImClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g.b.m.netty.myim.ImClient" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="g.a.ming.netty.discard.*" />
+          <option name="PATTERN" value="g.b.m.netty.myim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,38 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.c.ming.nio.EchoClient" />
+    <configuration name="ImServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g.b.m.netty.myim.ImServer" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="f.c.ming.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f.c.ming.nio.echo.EchoClient" />
-      <module name="mynety" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="f.c.ming.nio.echo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoServerReactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a.c.ming.nio.EchoServerReactor" />
-      <module name="mynety" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="f.c.ming.nio.*" />
+          <option name="PATTERN" value="g.b.m.netty.myim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,15 +140,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="improtoCli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g.c.m.netty.improtoCli" />
+      <module name="mynety" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g.c.m.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="improtoSer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g.c.m.netty.improtoSer" />
+      <module name="mynety" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g.c.m.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyDiscardClient" />
+      <item itemvalue="Application.ImServer" />
+      <item itemvalue="Application.ImClient" />
+      <item itemvalue="Application.improtoSer" />
+      <item itemvalue="Application.improtoCli" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiscardServer" />
+        <item itemvalue="Application.improtoCli" />
+        <item itemvalue="Application.improtoSer" />
+        <item itemvalue="Application.ImServer" />
+        <item itemvalue="Application.ImClient" />
         <item itemvalue="Application.MyDiscardClient" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServerReactor" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,6 +234,14 @@
       <workItem from="1648781943953" duration="1167000" />
       <workItem from="1648783147130" duration="3010000" />
       <workItem from="1649215832463" duration="1851000" />
+      <workItem from="1654864289801" duration="1108000" />
+      <workItem from="1654867809593" duration="91000" />
+      <workItem from="1654867920450" duration="4200000" />
+      <workItem from="1654935647575" duration="2842000" />
+      <workItem from="1655982541245" duration="584000" />
+      <workItem from="1656109078061" duration="1824000" />
+      <workItem from="1656371068395" duration="18295000" />
+      <workItem from="1657028640497" duration="2517000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -242,45 +292,41 @@
       <option name="project" value="LOCAL" />
       <updated>1640919008892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="echoserver 提交">
+      <created>1654864325054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654864325056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="合并pdf文件">
+      <created>1654910107114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654910107114</updated>
+    </task>
+    <task id="LOCAL-00010" summary="字符串发送，解码接收">
+      <created>1656860976196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656860976196</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="单线程reactor" />
     <MESSAGE value="echoserver 提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="echoserver 提交" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="385" y="29" key="CommitChangelistDialog2" timestamp="1640919006634">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="385" y="29" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1640919006634" />
-    <state x="1060" y="406" key="FileChooserDialogImpl" timestamp="1648776072781">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1060" y="406" key="FileChooserDialogImpl/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648776072781" />
-    <state x="810" y="363" key="Maven.ArtifactSearchDialog" timestamp="1649294402569">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="810" y="363" key="Maven.ArtifactSearchDialog/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1649294402569" />
-    <state x="920" y="408" key="NewModule_or_Project.wizard" timestamp="1647855301501">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="920" y="408" key="NewModule_or_Project.wizard/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1647855301501" />
-    <state x="269" y="203" key="SettingsEditor" timestamp="1648783416887">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1641990697295" />
-    <state x="269" y="203" key="SettingsEditor/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648783416887" />
-    <state x="654" y="409" key="new project wizard" timestamp="1648096516651">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="654" y="409" key="new project wizard/2560.368.1536.840/0.0.2560.1410@0.0.2560.1410" timestamp="1648096516651" />
+    <MESSAGE value="合并pdf文件" />
+    <MESSAGE value="字符串发送，解码接收" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串发送，解码接收" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,7 +406,54 @@
           <line>40</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/b.b.thread/MyThread.java</url>
+          <line>11</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/c/m/netty/SimpleProtobufEncoder.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/c/m/netty/SimpleProtobufDecoder.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar!/io/netty/handler/codec/LengthFieldPrepender.class</url>
+          <line>49</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar!/io/netty/handler/codec/string/StringEncoder.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/c/m/netty/improtoCli.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/c/m/netty/SimpleProtobufEncoder.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g/c/m/netty/SimpleProtobufDecoder.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

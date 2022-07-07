@@ -49,5 +49,7 @@ Thumbs.db
 /catalina.base_IS_UNDEFINED/
 /LOG_HOME_IS_UNDEFINED/
 /.idea/
+my_log.log
+
 # *.properties
 
