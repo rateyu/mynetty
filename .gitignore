@@ -50,6 +50,7 @@ Thumbs.db
 /LOG_HOME_IS_UNDEFINED/
 /.idea/
 my_log.log
-
+.gradle/
+.idea/
 # *.properties
 

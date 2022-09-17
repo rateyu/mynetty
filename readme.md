@@ -9,3 +9,8 @@ git push -u origin main
 url = git@gitee.com:rateyu/mynety.git
 url = git@github.com:rateyu/mynetty.git
 fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+remote = origin
+merge = refs/heads/main
+
+## git merger test
