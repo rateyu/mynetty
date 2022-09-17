@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="echoserver 提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/Msg.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/MsgProtos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/ProtoInstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/ProtoMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/improtoCli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/g/c/m/netty/improtoSer.java" afterDir="false" />
+    <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="增加说明文件">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <list id="a3bd673c-ee00-4ac7-8d6e-1ecf2c4d0205" name="Default Changelist2" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="outputLevel" value="DEBUG" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="userSettingsFile" value="C:\Users\myu\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -83,10 +80,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/b/b" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../temp" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -100,20 +98,7 @@
       <recent name="D:\gitee\mynety\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.improtoCli">
-    <configuration name="ImClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="g.b.m.netty.myim.ImClient" />
-      <module name="mynety" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="g.b.m.netty.myim.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.D:/gitee/mynety">
     <configuration name="ImServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="g.b.m.netty.myim.ImServer" />
       <module name="mynety" />
@@ -127,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDiscardClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f.a.ming.nio.discard.MyDiscardClient" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h.g.g.g.javaagent.MainClass" />
       <module name="mynety" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="f.a.ming.nio.discard.*" />
+          <option name="PATTERN" value="h.g.g.g.javaagent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,33 +151,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/gitee/mynety" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.MyDiscardClient" />
       <item itemvalue="Application.ImServer" />
-      <item itemvalue="Application.ImClient" />
       <item itemvalue="Application.improtoSer" />
       <item itemvalue="Application.improtoCli" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Gradle.D:/gitee/mynety" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.D:/gitee/mynety" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.improtoCli" />
         <item itemvalue="Application.improtoSer" />
         <item itemvalue="Application.ImServer" />
-        <item itemvalue="Application.ImClient" />
-        <item itemvalue="Application.MyDiscardClient" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +205,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="" />
+      <changelist id="a3bd673c-ee00-4ac7-8d6e-1ecf2c4d0205" name="Default Changelist2" comment="" />
       <created>1638782155578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -241,7 +244,18 @@
       <workItem from="1655982541245" duration="584000" />
       <workItem from="1656109078061" duration="1824000" />
       <workItem from="1656371068395" duration="18295000" />
-      <workItem from="1657028640497" duration="2517000" />
+      <workItem from="1657028640497" duration="3938000" />
+      <workItem from="1657667966921" duration="590000" />
+      <workItem from="1657800371804" duration="1167000" />
+      <workItem from="1658145939286" duration="585000" />
+      <workItem from="1658317039776" duration="573000" />
+      <workItem from="1658463513544" duration="1189000" />
+      <workItem from="1658762840790" duration="637000" />
+      <workItem from="1658842466712" duration="2749000" />
+      <workItem from="1659673584079" duration="569000" />
+      <workItem from="1659832131877" duration="5551000" />
+      <workItem from="1660001531845" duration="7146000" />
+      <workItem from="1663281105872" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1638920915626</created>
@@ -313,11 +327,62 @@
       <option name="project" value="LOCAL" />
       <updated>1656860976196</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="自定义编解码器">
+      <created>1657229625148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657229625148</updated>
+    </task>
+    <task id="LOCAL-00012" summary="javaagent测试代码">
+      <created>1663281307443</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663281307443</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加说明文件">
+      <created>1663282870863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663282870863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="增加说明文件">
+      <created>1663282956924</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663282956924</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -326,7 +391,10 @@
     <MESSAGE value="echoserver 提交" />
     <MESSAGE value="合并pdf文件" />
     <MESSAGE value="字符串发送，解码接收" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串发送，解码接收" />
+    <MESSAGE value="自定义编解码器" />
+    <MESSAGE value="javaagent测试代码" />
+    <MESSAGE value="增加说明文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加说明文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
