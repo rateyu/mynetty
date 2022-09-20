@@ -14,6 +14,3 @@ remote = origin
 merge = refs/heads/main
 
 ## git merger test
-快速合并
-分支从主干开出来进行开发，但是主干没有变化，此种情况可快速合并
-合并完 push完后，dev和main 指针相同
