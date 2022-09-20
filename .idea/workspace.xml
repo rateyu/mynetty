@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f471511-3b5f-4077-8bf0-9a5975694f37" name="Default Changelist" comment="增加说明文件">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <list id="a3bd673c-ee00-4ac7-8d6e-1ecf2c4d0205" name="Default Changelist2" comment="" />
     <option name="SHOW_DIALOG" value="false" />

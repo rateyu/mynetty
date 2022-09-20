@@ -53,4 +53,6 @@ my_log.log
 .gradle/
 .idea/
 # *.properties
+workspace.xml
+.gitignore
 
