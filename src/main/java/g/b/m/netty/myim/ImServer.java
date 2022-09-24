@@ -22,6 +22,10 @@ public class ImServer {
         new ImServer().runServer();
     }
 
+    /**
+     * The server is started by calling the bind() method of the ServerBootstrap class. The bind()
+     * method returns a ChannelFuture object, which is used to synchronize the server startup process
+     */
     private void runServer() {
         EventLoopGroup bossLoopGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerLoopGroup = new NioEventLoopGroup();

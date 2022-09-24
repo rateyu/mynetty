@@ -43,3 +43,13 @@ S
 #src/main/java/g/c/m/netty/Msg.proto,b\7\b7802e5d1d007c17d52dbdf3c4e51c6dafb998dd
 X
 (src/main/java/g/c/m/netty/MsgProtos.java,9\7\979524bc88d9a93495cdd9ee5fc7deb64a5bbbf0
+:
+
+mynety.iml,8\a\8ab0a13449a7cfcdb0e1b3078ef1bae9b88175ba
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+9
+	readme.md,2\7\275d783e298228506068436512433d343feb52aa
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
