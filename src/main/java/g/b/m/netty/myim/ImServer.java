@@ -20,6 +20,10 @@ public class ImServer {
 
     public static void main(String[] args) {
         new ImServer().runServer();
+        //打印helloworld
+        
+
+
     }
 
     /**
