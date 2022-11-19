@@ -28,6 +28,7 @@ Thumbs.db
 
 # idea ignore
 .idea/
+pubClientx-tcp1921681131883/
 *.ipr
 *.iws
 .mymetadata
