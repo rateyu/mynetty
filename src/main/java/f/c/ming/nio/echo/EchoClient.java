@@ -17,7 +17,8 @@ public class EchoClient {
 
     public EchoClient() {
         try {
-            InetSocketAddress address = new InetSocketAddress("127.0.0.1", 7778);
+//            InetSocketAddress address = new InetSocketAddress("127.0.0.1", 7778);
+            InetSocketAddress address = new InetSocketAddress("127.0.0.1", 7777);
             SocketChannel channel = SocketChannel.open(address);
             channel.configureBlocking(false);
 
