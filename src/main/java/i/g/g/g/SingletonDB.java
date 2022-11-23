@@ -1,5 +1,7 @@
 package i.g.g.g;
 
+import java.math.BigDecimal;
+
 public class SingletonDB {
     private volatile static SingletonDB singletonDB;
     private SingletonDB () {}
@@ -22,5 +24,6 @@ public class SingletonDB {
                 System.out.println(SingletonDB.getInstance());
             }).start();
         }
+//        new BigDecimal();
     }
 }
