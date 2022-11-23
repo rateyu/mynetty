@@ -20,6 +20,7 @@ import java.util.Scanner;
 public class ImLineClient {
     Bootstrap b = new Bootstrap();
     Logger logger = LoggerFactory.getLogger(ImLineClient.class);
+//    private String serverIp="127.0.0.1";
     private String serverIp="127.0.0.1";
 
     private int serverPort=7788;
