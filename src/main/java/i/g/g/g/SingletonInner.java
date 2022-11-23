@@ -1,16 +1,21 @@
 package i.g.g.g;
 
-public class Singleton {
-    private Singleton() {
+public class SingletonInner {
+    private SingletonInner() {
     }
     private static class Inner {
-        private static final Singleton instance = new Singleton();
+        private static final SingletonInner instance = new SingletonInner();
     }
-    public static Singleton getInstance() {
+    public static SingletonInner getInstance() {
         return Inner.instance;
     }
 
     public static void main(String[] args) {
-        System.out.println(Singleton.getInstance());
+        int a = 50;
+        while (a-- > 0) {
+            new Thread(() -> {
+                System.out.println(SingletonInner.getInstance());
+            }).start();
+        }
     }
 }
